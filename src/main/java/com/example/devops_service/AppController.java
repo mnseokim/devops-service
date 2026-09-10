@@ -1,10 +1,10 @@
-package com.example.devopsservice;
+package com.example.devops_service;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class AppController{
+public class AppController {
     @GetMapping("/")
     public String index(){
         return "Hello World!";
